@@ -1,2 +1,7 @@
 ---
 # tasks file for sudo
+- name: push the j2 file
+  template:
+    src: zone.j2
+    dest: /tmp/sudo.zone
+...
