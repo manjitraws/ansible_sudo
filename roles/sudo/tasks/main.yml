@@ -3,5 +3,5 @@
 - name: push the j2 file
   template:
     src: zone.j2
-    dest: /tmp/sudo.txt
+    dest: /tmp/sudo.zone
 ...
