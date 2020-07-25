@@ -1,0 +1,6 @@
+---
+- name: call the sudo role
+  hosts: all
+  roles:
+    - sudo
+...
